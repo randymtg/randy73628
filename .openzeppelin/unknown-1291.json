@@ -1,0 +1,56 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x538aA9493e2aD29dC9c9F9c29A341Bd87771e22B",
+      "txHash": "0x67edc87ae7baa907ddbe3c8611f53464517673b6901ab3dd35d8ae82507241c7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2Ce06d239f9BBdBA1645f544580018CF988FA737",
+      "txHash": "0x18323a4cd29777c5c8301dee522f13e6cb6e7ce0c309693c70cd492d6b24ef85",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x06bE0F85CfBde5f9b415fb4C2dD40EF7e92340a1",
+      "txHash": "0x31401432ea7946d2759800a81c0e532312ddc07f4fba6e4d3df9dae34bfce1f6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1B00999Bb65af36CCc0A945Fb2ffd72040A17832",
+      "txHash": "0x85f7dd5356ada66e6422abf236b4f6b614a7738972c0ee334f918e48d30b3514",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xeaaB3D9064b87Fd7a89e91dCA9Bf9ABfEa99ba83",
+      "txHash": "0x938100b06d54975e9003761c99b962477ac506843a87afc9adb0d7a8b499e843",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "472c056c09b2c2bba804837b8870cf765e7f0273c13567127dba807fe19ed08f": {
+      "address": "0x98469115e0CfB6d2027FB5C386350f6a81E4cB72",
+      "txHash": "0x46040567b3b7d11e0616c11d2243289e246cb49c326d9cdab3808ecef6074c91",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "message",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Swisstronik",
+            "src": "contracts/Hello_swtr.sol:5"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
